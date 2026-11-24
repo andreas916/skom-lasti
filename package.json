@@ -1,0 +1,13 @@
+{
+  "name": "skom-kelompok-13",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prototype simulasi Smart Kitchen Order Management Kelompok 13",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "start": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node test.mjs"
+  }
+}
