@@ -31,8 +31,6 @@ npm run build
 
 Fungsi aplikasi sama dengan prototype yang disiapkan sebelumnya: penerimaan dan normalisasi pesanan, deduplikasi, antrean dan estimasi, kesiapan bahan, reservasi kapasitas, QC, pengemasan, pickup, notifikasi simulasi, riwayat, serta ekspor JSON.
 
-Integrasi Hangry dan GoFood, menu, kapasitas, dan jam merupakan simulasi. Data disimpan di localStorage browser, sehingga setiap browser atau perangkat memiliki state sendiri. Hosting pada URL yang sama tidak membuat data menjadi basis data bersama. Tidak ada login aplikasi, API key, database server, atau ketergantungan pada hosting ChatGPT dalam source ini.
-
-Paket ini berisi aplikasi siap dimasukkan ke repository beserta konfigurasi Vercel. Pembuatan repository dan deployment tidak dijalankan oleh paket.
+Integrasi Hangry dan GoFood, menu, kapasitas, dan jam merupakan simulasi. Data disimpan di localStorage browser, sehingga setiap browser atau perangkat memiliki state sendiri. Hosting pada URL yang sama tidak membuat data menjadi basis data bersama. Tidak ada login aplikasi, API key, atau database server dalam source ini.
 
 Referensi konfigurasi: https://vercel.com/docs/project-configuration/vercel-json
